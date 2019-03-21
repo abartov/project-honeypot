@@ -11,6 +11,8 @@ This Gem requires that you have an Http:BL API key from Project Honeypot. You ca
 
 = Usage
 
+Add 'project-honeypot2' to your Gemfile.
+
 HTTP:BL lookups through Project Honeypot result in a Url object that gives you the risk score, last activity, and types of offenses the ip address is listed for.
 
 The score is worse the higher it is and the last_activity is in days.
